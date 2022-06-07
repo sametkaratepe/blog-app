@@ -6,6 +6,12 @@ Rails.application.routes.draw do
 
   get "/profile", to: "pages#profile"
 
+  get "/samet", to: "users#samet"
+  
+  get "/nejdet", to: "users#nejdet"
+
+  get "/sevval", to: "users#sevval"
+
   # Defines the root path route ("/")
   root "articles#index"
 end
